@@ -1,3 +1,4 @@
+package lab1;
 public class Rectangle {
 
     //Set the attributes of the Rectangle object

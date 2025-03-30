@@ -1,3 +1,4 @@
+package lab1;
 public class Stock {
     //The attributes of the stock object
     String symbol;
