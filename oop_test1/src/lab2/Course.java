@@ -1,7 +1,7 @@
 package lab2;
 
 public class Course {
-    private Student[] classList = new Student[10];
+    private Student[] classList = new Student[60];
     private String courseName;
     private int noStudents = 0;
 

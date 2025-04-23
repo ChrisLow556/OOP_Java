@@ -2,7 +2,7 @@ package lab2;
 
 public class Student {
     private String name;
-    private Course [] courselist = new Course[10];
+    private Course [] courseList = new Course[10];
     private int noCourses = 0;
 
     Student(){
@@ -15,11 +15,11 @@ public class Student {
 
     public void addCourse(Course c){
         for(int i=0; i<noCourses; i++){
-            if(c==courselist[i]){
+            if(c==courseList[i]){
                 return;
             }
         }
-        courselist[noCourses] = c;
+        courseList[noCourses] = c;
         noCourses++;
         c.addStudent(this);
     }
@@ -30,7 +30,7 @@ public class Student {
 
     public void getRegisteredCourses(){
         for (int i = 0; i<noCourses; i++){
-            System.out.println(courselist[i].getCourseName());
+            System.out.println(courseList[i].getCourseName());
         }
     }
 }
