@@ -9,14 +9,11 @@ public class Rectangle extends Parallelogram{
         super(p1, p2, p3, p4);
     }
 
-    // calculates area of shape
-    @Override
     public double getArea(){
         double area = getLength(p1, p2) * getLength(p2, p3);
         return area;
     }
 
-    // calculates the length between 2 points
     public double getLength(Point a, Point b){
         double diffX = a.getX() - b.getX();
         double diffY = a.getY() - b.getY();

@@ -8,7 +8,7 @@ public class Faculty extends Employee{
 
     }
 
-    Faculty(String name, String address, String phoneNumber, String email, String office, int salary,
+    Faculty(String name, String address, String phoneNumber, String email, String office, String salary,
     MyDate dateHired, int officeHours, String rank){
         super(name, address, phoneNumber, email, office, salary, dateHired);
         this.officeHours = officeHours;
@@ -27,14 +27,6 @@ public class Faculty extends Employee{
 
     public String getRank() {
         return rank;
-    }
-
-    public void setOfficeHours(int officeHours) {
-        this.officeHours = officeHours;
-    }
-
-    public void setRank(String rank) {
-        this.rank = rank;
     }
 
 }

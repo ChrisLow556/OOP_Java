@@ -2,14 +2,11 @@ package aggregation;
 
 public class Library {
     private String name;
-    private Book [] bookList = {
-        new Book("Lord of the rings", 200),
-        new Book("Your mum", 150),
-        new Book("Ur dad", 170)
-    };
+    private Book [] bookList = new Book[10];
 
-    Library(String name){
+    Library(String name,Book [] bookList){
         this.name = name;
+        this.bookList = bookList;
     }
 
     public void displayLibraryBooks(){
