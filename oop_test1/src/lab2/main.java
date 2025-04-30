@@ -1,6 +1,6 @@
 package lab2;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Student peter = new Student("Peter Jones");
         Student kim = new Student("Kim Smith");
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("The Students registered in " + dataStructures.getCourseName() + " include:");
         dataStructures.getRegisteredStudents();
         System.out.println();
-        System.out.println("The Students registered in " + databaseSystems.getCourseName() + " include:");
+        System.out.println("The Students registered in " + databaseSystems.getCourseName() + " also include:");
         databaseSystems.getRegisteredStudents();
     }
 }
