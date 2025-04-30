@@ -10,6 +10,7 @@ public class Trapezoid extends Quadilateral{
         super(p1,p2,p3,p4);
     }
 
+    //calculates area of shape
     public double getArea(){
         return calculateArea();
     }

@@ -1,6 +1,6 @@
 package lab2;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Student peter = new Student("Peter Jones");
         Student kim = new Student("Kim Smith");

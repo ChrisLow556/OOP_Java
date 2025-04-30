@@ -10,8 +10,8 @@ public class Parallelogram extends Quadilateral{
         super(p1, p2, p3, p4);
     }
 
+    //gets the area
     public double getArea() {
         return calculateArea();
     }
-
 }

@@ -38,4 +38,20 @@ public class Person {
     public String getEmail(){
         return email;
     }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 }

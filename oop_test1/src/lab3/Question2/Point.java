@@ -8,11 +8,19 @@ public class Point {
         this.y = y;
     }
 
+    //returns x coordinate
     public double getX() {
         return x;
     }
 
+    //returns y coordinate
     public double getY() {
         return y;
+    }
+
+    //sets the points
+    public void setPoint(double  x, double  y){
+        this.x = x;
+        this.y = y;
     }
 }
